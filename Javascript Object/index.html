@@ -22,59 +22,125 @@
       //     return true;
       //   }
 
+      //   let salaries = {
+      //     John: 100,
+      //     Ann: 160,
+      //     Pete: 130,
+      //   };
+
+      //   let sum = 0;
+      //   for (let key in salaries) {
+      //     sum += salaries[key];
+      //   }
+
+      //   alert(sum);
+
+      //   let user = { name: "John" };
+
+      //   let admin = user;
+
+      //   admin.name = "Pete";
+
+      //   alert(user.name);
+
+      //   let user = {
+      //     name: "John",
+      //     age: 30,
+      //   };
+
+      //   let clone = Object.assign({}, user);
+
+      //   alert(clone.name); // John
+      //   alert(clone.age);
+
+      // function makeUser(){
+      //   return {
+      //     name:"John",
+      //     ref() {
+      //       return this;
+      //     }
+      //   };
+      // }
+
+      // let user = makeUser();
+
+      // alert(user.ref().name);
+
+      // let claculator = {
+      //   sum() {
+      //     return this.a + this.b;
+      //   },
+
+      //   mul() {
+      //     return this.a * this.b;
+      //   },
+
+      //   read() {
+      //     this.a = +prompt("a?");
+      //     this.b = +prompt("b?");
+      //   },
+      // };
+
+      // claculator.read();
+      // alert(claculator.sum());
+      // alert(claculator.mul());
 
 
 
 
+      // let ladder = {
+      //   step: 0,
+      //   up() {
+      //     this.step++;
+      //     return this;
+      //   },
+      //   down() {
+      //     this.step--;
+      //     return this;
+      //   },
 
-    //   let salaries = {
-    //     John: 100,
-    //     Ann: 160,
-    //     Pete: 130,
-    //   };
+      //   showStep() {
+      //     alert(this.step);
+      //     return this;
+      //   },
+      // };
 
-    //   let sum = 0;
-    //   for (let key in salaries) {
-    //     sum += salaries[key];
-    //   }
-
-    //   alert(sum);
-
-
-
-
-
-
-
-    //   let user = { name: "John" };
-
-    //   let admin = user;
-
-    //   admin.name = "Pete";
-
-    //   alert(user.name);
+      // ladder.up().up().down().showStep().down().showStep();
 
 
+      // function User(name){
+      //   this.name = name;
+      //   this.sayHi = function(){
+      //     alert("My name is : " +this.name);
+      //   };
+      // }
+
+      // let john = new User("John");
+
+      // john.sayHi();
 
 
-
-
-
-
-
-    //   let user = {
-    //     name: "John",
-    //     age: 30,
-    //   };
-
-    //   let clone = Object.assign({}, user);
-
-    //   alert(clone.name); // John
-    //   alert(clone.age);
+      // Constructor
 
 
 
-    
+
+let Calculator(){
+
+  this.read = function(){
+    this.a = + prompt("a?", );
+    this.b = + prompt("b?", );
+  };
+
+  this.sum = function(){
+    return this.a + this.b;
+  };
+
+  this.mul = function{
+    ()
+}
+
+
     </script>
   </body>
 </html>
