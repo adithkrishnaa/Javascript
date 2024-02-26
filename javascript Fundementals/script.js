@@ -81,12 +81,12 @@
 //   () => alert("You excuation is canclled"));
 
 
-// let accessAllowed;
-// function accessAllowed(){
-//     let age = prompt('How old are you?', '');
-//     return age>18 ? accessAllowed=true : accessAllowed=false ;
-// }
-// alert(accessAllowed);
+let accessAllowed;
+function accessAllowed(){
+    let age = prompt('How old are you?', '');
+    return age>18 ? accessAllowed=true : accessAllowed=false ;
+}
+alert(accessAllowed);
 
 
 
